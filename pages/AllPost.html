@@ -10,7 +10,7 @@
    <title>Job Board</title>
 </head>
 
-<body>
+<body style="background-color: #eff2f6">
 
    <!-- <div class="jumbotron">
       <div class="container">
@@ -26,36 +26,34 @@
 
    <main>
 
-
-      <div class="container my-5">
-         <div class="row d-flex justify-content-between">
-            <form>
-               <div class="row">
-                  <div class="mb-3">
-                     <input type="text" placeholder="Live Search" class="form-control" id="" />
+      <div class="container">
+         <div class="container">
+            <div class="col d-flex justify-content-between bg-white rounded shadow-sm px-4 py-2">
+               <form >
+                  <div class="row">
+                     <div class="mb-3">
+                        <input type="text" placeholder="Live Search" class="form-control" id="" />
+                     </div>
+   
+                     <div>
+                        <button type="submit" class="btn btn-primary ml-4 shadow-sm rounded-pill">Search</button>
+                     </div>
                   </div>
-
-                  <div>
-                     <button type="submit" class="btn btn-primary ml-4">Search</button>
-                  </div>
+               </form>
+   
+               <div >
+                  <a class="btn btn-primary" href="JobPost.html" role="button">Post a Job</a>
                </div>
-            </form>
-
-            <div class="">
-               <a class="btn btn-primary" href="PostJob.html" role="button">Post a Job</a>
             </div>
-         </div>
 
          <div class="container">
 
-            <div class="tables mt-5">
+          
 
-               <div class="singularTable my-5">
-
-                  <h3>All Post</h3>
+                  <h1 class="mt-5 font-weight-light ">All Post</h1>
                   
                   <hr>
-                  <div class="row">
+                  <div class="row mb-5">
                      <div class="col">
                         <a href="">Category 1</a>
                      </div>
@@ -72,8 +70,8 @@
                   </div>
                   
                   
-                  <br>
-                  <table id="tab" class="table table-striped table-bordered table-hover" style="width:100%">
+                  <div class="bg-white ">
+                  <table id="tab" class="table table-striped table-bordered roundedtable-hover shadow-sm" style="width:100%">
                      <thead class="thead-dark">
                         <tr>
                            <th>Poster</th>
@@ -148,20 +146,21 @@
                         </tr>
                      </tbody>
                   </table>
-
-                  <div class="row d-flex justify-content-between mt-4">
-                     
-                     <a href="AdminPanel.html">Go back</a>
-                  </div>
                </div>
-
-            </div>
+               
+               <a href="AdminPanel.html" class="my-5">Go back</a>
+                     
+                  
+               
+             
 
 
 
 
          </div>
-
+         
+      </div>
+      
    </main>
 
    <script>
